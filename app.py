@@ -1,17 +1,11 @@
 import pyrebase
-
-config = {
-  "apiKey": "apiKey",
-  "authDomain": "projectId.firebaseapp.com",
-  "databaseURL": "https://databaseName.firebaseio.com",
-  "storageBucket": "projectId.appspot.com",
-  "serviceAccount": "path/to/serviceAccountCredentials.json"
-}
+from credentials import data
+config = data
 
 firebase = pyrebase.initialize_app(config)
 
 # Get a reference to the auth service
-auth = firebase.auth()
+# auth = firebase.auth()
 
 # Log the user in
 # user = auth.sign_in_with_email_and_password(email, password)
@@ -25,7 +19,8 @@ data = {
 }
 
 # Pass the user's idToken to the push method
-results = db.child("users").push(data)
+# results = db.child("users").push(data)
 
-db.child("users").child("Morty").set("Rick")
+db.child("users").child("Morty").set("dick")
 
+db.child("peaky").child("pari").set("awesome")
