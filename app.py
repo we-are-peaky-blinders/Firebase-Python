@@ -24,3 +24,5 @@ data = {
 db.child("users").child("Morty").set("dick")
 
 db.child("peaky").child("pari").set("awesome")
+
+db.child("major Niffas").child("Rishi").set("learning")
