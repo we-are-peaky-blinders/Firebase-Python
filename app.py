@@ -14,7 +14,7 @@ firebase = pyrebase.initialize_app(config)
 db = firebase.database()
 
 # data to save
-data = {
+data = https://github.com/rishithSadashiv/Firebase-Python
     "name": "Mortimer 'Morty' Smith"
 }
 
@@ -26,3 +26,5 @@ db.child("users").child("Morty").set("dick")
 db.child("peaky").child("pari").set("awesome")
 
 db.child("major Niffas").child("Rishi").set("learning")
+
+db.child("major Niffas").child("adding ").set("something")
